@@ -25,24 +25,30 @@
 
 .container {
     display: flex;
+    justify-content: space-around;
+    border: 10px solid mistyrose;
+    flex-direction: column;
 }
 
-.box {
+/* Code from video 5 */
+/* .box {
     flex: 1;
 }
 
 .box3 {
     order: 1;
-}
+} */
+
+/* Code from video 4 */
 /* .container {
     display: flex;
     border: 10px solid goldenrod;
     min-height: 100vh;
     /* flex-direction: column; */
-    flex-wrap: wrap;
-}
+    /* flex-wrap: wrap;
+} */
 
-.box {
+/* .box {
     width: 33.333333%;
     padding: 10px;
-} */
+} */ */
